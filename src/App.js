@@ -96,7 +96,7 @@ function App() {
           />
         </div>
 
-        <div className=" row m-1">
+        <div className="row m-1">
           <div className="row col-7 m-2" id="selected-coin">
             <div
               className="col d-flex align-items-center justify-content-around"
@@ -148,7 +148,7 @@ function App() {
               </p>
             </div>
             <div>
-              <p className="bitcoin-price-chart">Bitcoin Price</p>
+              <p className="bitcoin-price-chart">Bitcoin Price: </p>
               <div className="parent">
                 <TradeViewChart
                   interval="1000m"
